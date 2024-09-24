@@ -1,0 +1,30 @@
+{
+  "name": "node-challenge-payment",
+  "version": "1.0.0",
+  "description": "Simple practice Node.js app for receiving messages frmo Azure Service Bus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtasalem/node-challenge-payment.git"
+  },
+  "keywords": [
+    "azure",
+    "service-bus"
+  ],
+  "author": "Rana Salem (github.com/rtasalem)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtasalem/node-challenge-payment/issues"
+  },
+  "homepage": "https://github.com/rtasalem/node-challenge-payment#readme",
+  "devDependencies": {
+    "dotnet": "1.1.4",
+    "nodemon": "3.1.7"
+  },
+  "dependencies": {
+    "@azure/service-bus": "7.9.5"
+  }
+}
